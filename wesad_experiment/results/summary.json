@@ -1,0 +1,104 @@
+{
+  "dummy": {
+    "subject_mean": {
+      "accuracy": 0.7015657980363862,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4122793756338995,
+      "stress_recall": 0.0,
+      "stress_precision": 0.0,
+      "roc_auc": 0.5,
+      "brier": 0.2984342019636136
+    },
+    "macro_f1_subject_bootstrap_95ci": [
+      0.41025412170533904,
+      0.41430462956245984
+    ],
+    "pooled": {
+      "accuracy": 0.7015209125475285,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4122905027932961,
+      "stress_recall": 0.0,
+      "stress_precision": 0.0,
+      "roc_auc": 0.5,
+      "brier": 0.2984790874524715
+    },
+    "confusion_matrix_true_rows_pred_columns": [
+      [
+        369,
+        0
+      ],
+      [
+        157,
+        0
+      ]
+    ]
+  },
+  "logistic": {
+    "subject_mean": {
+      "accuracy": 0.878738646973941,
+      "balanced_accuracy": 0.8812979797979799,
+      "macro_f1": 0.8616155799698334,
+      "stress_recall": 0.8884848484848484,
+      "stress_precision": 0.8362748622397744,
+      "roc_auc": 0.9659466403162056,
+      "brier": 0.0893623671381317
+    },
+    "macro_f1_subject_bootstrap_95ci": [
+      0.7809754014152698,
+      0.9320873275780391
+    ],
+    "pooled": {
+      "accuracy": 0.8783269961977186,
+      "balanced_accuracy": 0.8821742357550963,
+      "macro_f1": 0.8617790040730522,
+      "stress_recall": 0.89171974522293,
+      "stress_precision": 0.7486631016042781,
+      "roc_auc": 0.9484577011375209,
+      "brier": 0.08963110441755626
+    },
+    "confusion_matrix_true_rows_pred_columns": [
+      [
+        322,
+        47
+      ],
+      [
+        17,
+        140
+      ]
+    ]
+  },
+  "random_forest": {
+    "subject_mean": {
+      "accuracy": 0.8858846164728518,
+      "balanced_accuracy": 0.8848285024154589,
+      "macro_f1": 0.8584245342806881,
+      "stress_recall": 0.8800000000000001,
+      "stress_precision": 0.8718111518111519,
+      "roc_auc": 0.9933416337285903,
+      "brier": 0.08201205433968765
+    },
+    "macro_f1_subject_bootstrap_95ci": [
+      0.742533983538829,
+      0.9448423889137553
+    ],
+    "pooled": {
+      "accuracy": 0.8859315589353612,
+      "balanced_accuracy": 0.883934890304317,
+      "macro_f1": 0.8688148443735035,
+      "stress_recall": 0.8789808917197452,
+      "stress_precision": 0.770949720670391,
+      "roc_auc": 0.9499076519427615,
+      "brier": 0.08225569914802422
+    },
+    "confusion_matrix_true_rows_pred_columns": [
+      [
+        328,
+        41
+      ],
+      [
+        19,
+        138
+      ]
+    ]
+  }
+}

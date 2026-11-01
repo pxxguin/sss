@@ -1,0 +1,2 @@
+import {treeShap,browserLime,browserAnchors,predict} from './engine.js';
+self.onmessage=({data})=>{try{const {model,x,id}=data;const shap=treeShap(model,x);self.postMessage({id,stage:'shap',shap,probability:predict(model,x)});const lime=browserLime(model,x);self.postMessage({id,stage:'lime',lime});const anchor=browserAnchors(model,x,shap.values);self.postMessage({id,stage:'anchor',anchor});}catch(e){self.postMessage({id,error:e.message});}};

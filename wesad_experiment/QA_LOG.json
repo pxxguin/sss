@@ -1,0 +1,11 @@
+{
+  "completed_checks": [
+    "Downloaded original official ZIP and matched supplied MD5",
+    "Constant EDA/BVP/TEMP and 1g acceleration sanity fixture: passed",
+    "Invalid pulse fixture yields NaN pulse estimates and quality flag 0: passed",
+    "All source modules compile",
+    "Notebook JSON validated; 12 cells; no fabricated execution outputs",
+    "HCI analyzer rejects empty response template: passed"
+  ],
+  "fixture_note": "Constant signals are software checks only; no synthetic data contributed to model results."
+}

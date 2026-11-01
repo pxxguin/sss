@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "subjects": 15,
+  "windows": 526,
+  "features": 17,
+  "fold_model_pairs": 45,
+  "oof_rows": 1578,
+  "explanation_cases": 16,
+  "pulse_quality_failed_windows": 0,
+  "checks": [
+    "official MD5 separately matched",
+    "60-second non-overlapping windows",
+    "all 15 LOSO train/test subject disjointness",
+    "no metadata in model features",
+    "one OOF prediction per window/model",
+    "independent Macro-F1 recomputation",
+    "explanations match held-out fold probabilities",
+    "SHAP probability additivity",
+    "Anchor metric bounds"
+  ]
+}
